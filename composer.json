@@ -1,0 +1,19 @@
+{
+    "name": "cartprotector/webhooks",
+    "description": "CartProtector Webhooks",
+    "keywords": ["cartprotector", "webhooks", "webhook"],
+    "homepage": "https://cartprotector.com/",
+    "type": "library",
+    "autoload": {
+        "psr-4": {"": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Leonid Zakharov",
+            "email": "to@leonid.cc"
+        }
+    ],
+    "require": {
+        "cartprotector/api-object": "^1.0"
+    }
+}
